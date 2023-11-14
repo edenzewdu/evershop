@@ -1,11 +1,9 @@
 node_modules
-.env
 ./dist
 /extensions/*
 themes
 .idea/*
 .evershop
-.vscode
 npm-debug.log
 /package-log.json
 /media
@@ -18,3 +16,4 @@ cypress
 .prettierignore
 .prettierrc
 mysqlToPostgres.js
+config.bat

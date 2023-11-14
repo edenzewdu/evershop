@@ -12,9 +12,9 @@
   "scripts": {
     "prepublishOnly": "node prepublish.js",
     "prepack": "node prepublish.js",
-    "dev": "evershop dev",
-    "build": "evershop build",
-    "start": "evershop start",
+    "dev": "node init && evershop dev",
+    "build": "node init && evershop build",
+    "start": "node init && evershop start",
     "user:create": "evershop user:create",
     "user:changePassword": "evershop user:changePassword",
     "test": "jest"

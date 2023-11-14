@@ -17,13 +17,13 @@
     "extensions/*"
   ],
   "scripts": {
-    "dev": "evershop dev",
+    "dev": "node init && evershop dev",
     "setup": "evershop install",
-    "build": "evershop build",
-    "start": "evershop start",
+    "build": "node init && evershop build",
+    "start": "node init && evershop start",
     "user:create": "evershop user:create",
     "user:changePassword": "evershop user:changePassword",
-    "start:debug": "evershop start --debug",
+    "start:debug": "node init && evershop start --debug",
     "test": "jest --workspace=@evershop/evershop",
     "cypress": "cypress run",
     "lint": "eslint --fix --ext .js,.jsx .",
